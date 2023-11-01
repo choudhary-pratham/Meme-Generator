@@ -1,0 +1,32 @@
+@media only screen and (max-width:600px) {
+    .app{
+        width: 120%;
+    }
+    .header--image{
+        height: 70%;
+    }
+    .meme--image{
+        width: 90%;
+    }
+        .meme--upper,
+        .meme--lower{
+            left:50px;
+        }
+}
+@media only screen and (min-width:601px) and (max-width:1280px) {
+    .app{
+        margin-top: 40px;
+        width: 70%;
+    }
+    .header--image{
+        height: 70%;
+    }
+    .meme--image{
+        width: 90%;
+        height: auto;
+    }
+        .meme--upper,
+        .meme--lower{
+            left:20%;
+        }
+}
